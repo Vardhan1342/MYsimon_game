@@ -1,0 +1,60 @@
+body {
+  text-align: center;
+  /* background-color: #011F3F; */
+  background-image: url(opback.jpg);
+  background-size: cover;
+  
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+#level-title:hover{
+  color:red;
+}
+.container {
+  margin-left: 20%;
+
+}
+
+.btns {
+  margin: 25px;
+  height: 200px;
+  width: 200px;
+  border: 3px solid;
+  border-radius: 20%;
+}
+
+
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-image:url("luffy.jpg");
+}
+
+.green {
+  background-image:url("zoro.jpg");
+  
+}
+
+.blue {
+  background-image:url("Nami_face.jpg");
+
+}
+
+.yellow {
+  background-image:url("sanji.jpg");
+ 
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
